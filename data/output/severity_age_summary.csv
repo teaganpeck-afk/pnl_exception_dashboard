@@ -1,0 +1,4 @@
+severity,exception_count,avg_age_business_days,max_age_business_days,avg_abs_variance
+Low,7,37.57142857142857,44,218.20000000000002
+High,2,6.5,9,4339.625
+Medium,1,32.0,32,362.86

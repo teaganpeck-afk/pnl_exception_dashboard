@@ -1,0 +1,11 @@
+date,instrument,row_key,exception_type,expected_pnl,reported_pnl_after_injection,delta_pnl,abs_delta_pnl,severity,trade_id,fee_variance,stale_price_used,position_delta,note
+2025-01-02,EURUSD,2025-01-02|EURUSD,incorrect_fee,-94.32,-269.32,-175.0,175.0,Low,,175.0,,,"Reported system applied an incorrect aggregated fee/commission charge, lowering reported P&L."
+2025-01-02,GBPUSD,2025-01-02|GBPUSD,incorrect_fee,9.65,-240.35,-250.0,250.0,Low,,250.0,,,"Reported system applied an incorrect aggregated fee/commission charge, lowering reported P&L."
+2025-01-03,AUDUSD,2025-01-03|AUDUSD,wrong_position,-474.68,-695.18,-220.5,220.5,Low,,,,-75000.0,"Reported system carried an incorrect end-of-day position quantity, distorting mark-to-market P&L."
+2025-01-03,GBPUSD,2025-01-03|GBPUSD,wrong_position,349.5,524.25,174.75,174.75,Low,,,,-75000.0,"Reported system carried an incorrect end-of-day position quantity, distorting mark-to-market P&L."
+2025-01-06,GBPUSD,2025-01-06|GBPUSD,missing_trade,-1018.23,-782.78,235.45,235.45,Low,T00014,,,,"Reported system omitted one executed trade, removing that trade's same-day P&L contribution."
+2025-01-20,GBPUSD,2025-01-20|GBPUSD,duplicate_booking,-267.22,-630.08,-362.86,362.86,Medium,T00051,,,,"Reported system duplicated one trade booking, overstating or understating same-day P&L by the duplicated trade's contribution."
+2025-01-29,GBPUSD,2025-01-29|GBPUSD,missing_trade,683.42,907.27,223.85,223.85,Low,T00086,,,,"Reported system omitted one executed trade, removing that trade's same-day P&L contribution."
+2025-02-03,EURUSD,2025-02-03|EURUSD,duplicate_booking,-412.72,-660.57,-247.85,247.85,Low,T00101,,,,"Reported system duplicated one trade booking, overstating or understating same-day P&L by the duplicated trade's contribution."
+2025-02-20,AUDUSD,2025-02-20|AUDUSD,stale_price,-4470.56,-148.06,4322.5,4322.5,High,,,0.67437,,Reported system used prior close instead of current close to mark the end-of-day position.
+2025-02-27,AUDUSD,2025-02-27|AUDUSD,stale_price,4100.35,-256.4,-4356.75,4356.75,High,,,0.67502,,Reported system used prior close instead of current close to mark the end-of-day position.

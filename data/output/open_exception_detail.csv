@@ -1,0 +1,11 @@
+date,instrument,expected_pnl,reported_pnl,pnl_variance,abs_pnl_variance,severity,likely_cause,cause_confidence,matched_trade_id,implied_position_delta,age_business_days,investigation_note
+2025-02-27,AUDUSD,4100.35,-256.4,-4356.75,4356.75,High,stale_price,high,,,4,Variance closely matches using prior close instead of current close on the end-of-day position.
+2025-02-20,AUDUSD,-4470.56,-148.06,4322.5,4322.5,High,stale_price,high,,,9,Variance closely matches using prior close instead of current close on the end-of-day position.
+2025-01-20,GBPUSD,-267.22,-630.08,-362.86,362.86,Medium,duplicate_booking,high,T00051,,32,Variance closely matches the P&L contribution of one duplicated same-day trade.
+2025-01-02,GBPUSD,9.65,-240.35,-250.0,250.0,Low,incorrect_fee,medium,,,44,"Variance is moderate, trade-related, and not well explained by price or trade-booking logic; likely fee discrepancy."
+2025-02-03,EURUSD,-412.72,-660.57,-247.85,247.85,Low,duplicate_booking,high,T00101,,22,Variance closely matches the P&L contribution of one duplicated same-day trade.
+2025-01-06,GBPUSD,-1018.23,-782.78,235.45,235.45,Low,missing_trade,high,T00014,,42,Variance closely matches the removal of one same-day trade's P&L contribution.
+2025-01-29,GBPUSD,683.42,907.27,223.85,223.85,Low,missing_trade,high,T00086,,25,Variance closely matches the removal of one same-day trade's P&L contribution.
+2025-01-03,AUDUSD,-474.68,-695.18,-220.5,220.5,Low,wrong_position,medium,,-75000.0,43,Variance is consistent with a plausible round-lot end-of-day position mismatch.
+2025-01-02,EURUSD,-94.32,-269.32,-175.0,175.0,Low,incorrect_fee,medium,,,44,"Variance is moderate, trade-related, and not well explained by price or trade-booking logic; likely fee discrepancy."
+2025-01-03,GBPUSD,349.5,524.25,174.75,174.75,Low,wrong_position,medium,,-75000.0,43,Variance is consistent with a plausible round-lot end-of-day position mismatch.

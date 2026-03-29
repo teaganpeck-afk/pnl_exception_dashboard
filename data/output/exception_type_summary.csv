@@ -1,0 +1,6 @@
+likely_cause,exception_count,avg_abs_variance,max_abs_variance
+duplicate_booking,2,305.355,362.86
+incorrect_fee,2,212.5,250.0
+missing_trade,2,229.64999999999998,235.45
+stale_price,2,4339.625,4356.75
+wrong_position,2,197.625,220.5
