@@ -55,11 +55,11 @@ This project simulates a middle-office analyst supporting a small FX trading boo
    ```bash
    pip install -r requirements.txt
 2. Run the notebooks in order:
-    01_data_build.ipynb
-    02_pnl_engine.ipynb
-    03_exception_logic.ipynb
-    04_dashboard.ipynb
-
+- `01_data_build.ipynb`
+- `02_pnl_engine.ipynb`
+- `03_exception_logic.ipynb` 
+- `04_dashboard.ipynb` 
+  
 ## Purpose
 
 This project was built to demonstrate skills relevant to trading middle-office and operations roles, including daily P&L explain, exception handling, control-focused reporting, and Python-based data workflows.
