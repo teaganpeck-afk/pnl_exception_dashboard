@@ -1,5 +1,7 @@
 # P&L Exception Dashboard
 
+📄 [View Project Overview PDF](reports/PNL Exception Dashboard.pdf)
+
 Python-based middle-office workflow for a simulated spot FX trading book. This project calculates expected daily P&L, compares it to reported P&L, classifies material variances, and produces dashboard outputs for exception review. The repo currently contains four notebooks, a `data` folder, a `reports` folder, and a `requirements.txt` file. :contentReference[oaicite:0]{index=0}
 
 ## Project Overview
